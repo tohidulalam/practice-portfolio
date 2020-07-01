@@ -11,6 +11,7 @@ body{
 h1{
     font-size: 50px;
    
+   
 
 }
 p{
@@ -56,6 +57,7 @@ margin-bottom:20px;
 
 p{
    margin-bottom: 30px;
+   color: darkgray;
 ;
    
 }
@@ -63,6 +65,7 @@ p{
     background-image: url("images/header-bg.png");
     background-repeat: repeat;
     background-position: left;
+    padding-bottom: 0px;
 }
 
 #bio-div{
@@ -108,3 +111,50 @@ p{
     padding-left: 0%;
     padding-right: 8%;
 }
+
+.client{
+    text-align: center;
+}
+
+.client-feedback{
+    height: 400px;
+    text-align: center;
+   
+}
+
+.client-feedback p{
+    margin: 0px;
+}
+
+.client-feedback h4{
+    font-weight: 50;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgrey;
+}
+
+.c1{
+    margin-bottom: 50px;
+}
+.c1 p{
+    font-weight: 500;
+    color: #333;
+}
+.c2{
+    height: 100px;
+    width: 500px;
+    background-color: rgb(237,75,112);
+    margin: 0 auto;
+    color: white;
+    padding-top: 35px;
+    border-radius: 7px;
+
+}
+.c2 p{
+    color: white;
+}
+
+.c2 h3{
+    padding-bottom: 0px;
+}
+
+
