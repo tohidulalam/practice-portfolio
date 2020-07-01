@@ -57,7 +57,7 @@ margin-bottom:20px;
 
 p{
    margin-bottom: 30px;
-   color: darkgray;
+   color: #c2c2c5;
 ;
    
 }
@@ -119,6 +119,12 @@ p{
 .client-feedback{
     height: 400px;
     text-align: center;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    background-position: center;
+    
    
 }
 
@@ -155,6 +161,12 @@ p{
 
 .c2 h3{
     padding-bottom: 0px;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 0px;
+    color: #707070;
 }
 
 
