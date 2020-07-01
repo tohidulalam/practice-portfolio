@@ -19,7 +19,7 @@ p{
     
 }
 section{
-    height: 500px;
+    height: 600px;
     padding-bottom: 100px;
     
 }
@@ -27,7 +27,8 @@ section{
 .half-width{
  width: 40%;
  padding-left: 5%;
- display: inline-block;
+ float: left;
+ padding-top: 3%;
  
 
 }
@@ -35,7 +36,8 @@ section{
 #to-fi-div{
     text-align: left;
     padding-left: 20%;
-    margin-top: -15%;
+    margin-top: 100px;
+    
    }
 
 .half-width img{
@@ -52,7 +54,7 @@ border-radius: 8px;
 margin-bottom:20px;
 }
 
-#top-first p{
+p{
    margin-bottom: 30px;
 ;
    
@@ -61,4 +63,48 @@ margin-bottom:20px;
     background-image: url("images/header-bg.png");
     background-repeat: repeat;
     background-position: left;
+}
+
+#bio-div{
+    margin-top: 100px;
+}
+.biography{
+    background-image: url("images/biography-bg.png");
+    margin-top: 100px;
+    background-repeat: no-repeat;
+}
+
+.biography .half-width img{
+    height: 650px;
+}
+
+.work{
+    width: 25%;
+    display: inline-block;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+.work img{
+    height: 250px;
+    width: 100%;
+}
+.my-work h1{
+    text-align: center;
+}
+.my-work{
+    height: 450px;
+    background-image: url("images/latest-work-bg.png");
+    padding-bottom: 0px;
+}
+.work-1{
+    padding-left: 8%;
+}
+
+.work-2{
+    padding-left: 0%;
+}
+.work-3{
+    padding-left: 0%;
+    padding-right: 8%;
 }
