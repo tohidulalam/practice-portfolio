@@ -172,3 +172,19 @@ footer{
 }
 
 
+@media only screen and (max-width: 320px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 70%;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    /* For tab phones: */
+    [class*="col-"] {
+      width: 85%;
+    }
+  }
+
+  
+  
